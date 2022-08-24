@@ -1,4 +1,7 @@
 package com.schaefer.dadsjokes.domain.model
 
-class Joke {
-}
+internal data class Joke(
+    val id: String,
+    val joke: String,
+    val status: Int,
+)

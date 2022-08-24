@@ -1,4 +1,4 @@
-package com.schaefer.dadsjokes.data.api
+package com.schaefer.dadsjokes.data.api.dto
 
 import androidx.annotation.Keep
 import com.schaefer.dadsjokes.domain.model.Joke

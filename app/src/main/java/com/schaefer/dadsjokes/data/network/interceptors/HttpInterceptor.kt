@@ -7,9 +7,9 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-internal class AddLoggingInterceptor @Inject constructor() {
+internal class HttpInterceptor @Inject constructor() {
 
-    fun setLogging(): HttpLoggingInterceptor {
+    fun getLogging(): HttpLoggingInterceptor {
         return HttpLoggingInterceptor().setLevel(
             getLoggingLevel()
         )
